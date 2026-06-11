@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YILDIZ YANGIN SÖNDÜRME SİSTEMLERİ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff; 
+            padding: 35px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(30, 41, 59, 0.1); 
+            text-align: center;
+            max-width: 360px;
+            width: 90%;
+            margin: 20px auto;
+            animation: fadeIn 0.8s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .logo-img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #1e293b; 
+            font-size: 24px; 
+            margin-bottom: 8px;
+            font-weight: 800; 
+            letter-spacing: 0.5px;
+            text-transform: uppercase; 
+        }
+        
+        .subtitle {
+            color: #dc2626; /* Yangın firması konseptine uygun olarak Kırmızı (red-600) renge güncellendi */
+            font-size: 13px;
+            margin-bottom: 25px; 
+            font-weight: 700; 
+            line-height: 1.6; 
+            letter-spacing: 0.5px;
+            text-transform: uppercase; 
+            padding: 0 5px; 
+        }
+        
+        .section-title {
+            font-size: 13px;
+            color: #1e293b; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 25px 0 12px;
+            text-align: left;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+            font-weight: 700;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-decoration: none;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(220, 38, 38, 0.15);
+        }
+        .btn:active { transform: scale(0.98); }
+        
+        /* Renk Kombinasyonları */
+        .btn-call { background-color: #dc2626; color: #ffffff; border: 2px solid #dc2626; } /* Kurumsal Kırmızı */
+        .btn-whatsapp { background-color: #25D366; color: #ffffff; border: 2px solid #25D366; } /* WhatsApp Yeşili */
+        .btn-maps { background-color: #ffffff; color: #dc2626; border: 2px solid #dc2626; } 
+        .btn-instagram { background-color: #1e293b; color: #ffffff; border: 2px solid #1e293b; } 
+        
+        /* Hover Efektleri */
+        .btn-call:hover { background-color: #b91c1c; border-color: #b91c1c; }
+        .btn-whatsapp:hover { background-color: #1ebe57; border-color: #1ebe57; }
+        .btn-maps:hover { background-color: #f8fafc; }
+        .btn-instagram:hover { background-color: #334155; border-color: #334155; }
+        
+        /* Profesyonel Footer Alanı */
+        .footer-wrapper {
+            margin-top: 30px;
+            border-top: 1px dashed #e2e8f0; 
+            padding-top: 15px;
+        }
+        .legal-footer {
+            font-size: 11px;
+            color: #94a3b8;
+            font-weight: 500;
+            margin-bottom: 3px;
+        }
+        .creator-tag {
+            font-size: 10px; 
+            color: #cbd5e1; 
+            text-decoration: none; 
+            transition: color 0.2s ease; 
+            display: inline-block;
+            font-weight: 400;
+        }
+        .creator-tag span {
+            font-weight: 700; 
+            color: #94a3b8; 
+        }
+        .creator-tag:hover, .creator-tag:hover span {
+            color: #dc2626; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="YildizYanginlogo.png" alt="YILDIZ YANGIN LOGO" class="logo-img">
+    
+    <h1>YILDIZ YANGIN SÖNDÜRME</h1>
+    
+    <div class="subtitle">YANGIN SÖNDÜRME SİSTEMLERİ</div>
+    
+    <div class="section-title">📍 İletişim - Muzaffer YILDIZ</div>
+    <a href="tel:+905426851811" class="btn btn-call">📞 Muzaffer YILDIZ Ara</a>
+    
+    <div class="section-title">📍 İletişim - Orhan Çörekçioğlu</div>
+    <a href="tel:+905539002501" class="btn btn-call">📞 O. Çörekçioğlu Ara</a>
+    <a href="https://wa.me/905539002501?text=Merhaba,%20yangın%20söndürme%20sistemleri%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="btn btn-whatsapp">💬 WhatsApp'tan Yaz</a>
+    
+    <div class="section-title">🗺️ Adres ve Sosyal Medya</div>
+    <a href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCTY1NDgyajBqN6gCCLACAfEFJZ883M0aRck&um=1&ie=UTF-8&fb=1&gl=tr&sa=X&geocode=KZ-5KHuz5TEVMa1eMLvs9-LX&daddr=Sanayi,+60005.+Cd.+No:20,+27110+%C5%9Eehitkamil/Gaziantep" target="_blank" class="btn btn-maps">🗺️ Yol Tarifi Al</a>
+    <a href="https://www.instagram.com/yildizyanginsistemleri?igsh=Z3A2MTZ6anhyMWJh" target="_blank" class="btn btn-instagram">📸 Instagram'dan Takip Et</a>
+    
+    <div class="footer-wrapper">
+        <div class="legal-footer">© 2026 Yıldız Yangın Söndürme Sistemleri</div>
+        <a href="#" target="_blank" class="creator-tag">Dijital Kart Tasarımı: <span>CK Plast</span></a>
+    </div>
+</div>
+
+</body>
+</html>
